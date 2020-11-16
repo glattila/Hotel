@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href = "styles.css" rel = "stylesheet">
+    <title>Hotel Hotel</title>
+</head>
+<body>
+    <div class = "main">
+        <div class ="header">
+            <h1>Hotel Hotel</h1>
+            <a href="#" id="gomb"><span></span></a>
+            <h2>Foglalás</h2>
+        </div>
+        <div class="foglalas">
+            <h3>Foglalja le most egyik szobánkat!</h3>
+            <img src="kep2.jpg">
+            <h4>Legszebb hotel a városban!</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper et metus quis tempor. Proin eget sem varius, iaculis metus et, malesuada orci. Curabitur non urna id lacus volutpat placerat. Nam semper sem felis, et tincidunt enim mollis quis. Curabitur eget massa nulla. In tellus orci, molestie at mollis vitae, blandit a mauris. Integer sed facilisis nunc. Donec tempus nunc lorem, eu accumsan purus varius at. Mauris ut massa dolor. Donec gravida, dui vel finibus euismod, elit lacus porttitor dolor, eu iaculis orci metus id enim. In vitae massa fringilla elit placerat consequat. Mauris aliquam dui eu lectus ultricies, sit amet varius odio porttitor. Mauris convallis felis risus. Maecenas nec tincidunt ex. Praesent finibus, metus ac ornare finibus, lorem lacus maximus eros, congue vulputate nisi nisl a lacus. Vivamus nisl magna, sodales id diam id, malesuada aliquet orci.</p>
+            <label id="elso">Hány főre foglal?</label>
+            <select id="ertek1" onchange = "hozzaad()">
+                <option value="1">1 felnőtt</option>
+                <option value="2">2 felnőtt</option>
+                <option value="3">3 felnőtt</option>
+                <option value="4">4 felnőtt</option>
+            </select>
+            <label id="masodik">Hány napra foglal?</label>
+            <select id="ertek2" onchange = "hozzaad()">
+                <option value="1">1 nap</option>
+                <option value="2">2 nap</option>
+                <option value="3">3 nap</option>
+                <option value="4">4 nap</option>
+            </select>
+            <button type="submit" id="gomb1">Lefoglalom!</button>
+            <h2>Fizetendő összeg:</h2>
+            <h2 id="szemely"></h2>
+        </div>
+        <div class="info">
+            <h2>Kapcsolat</h2>
+            <p>Tel.: 06301122334</p>
+            <p>E-mail: <a href="mailto:hotehotel@gmail.com">hotelhotel@gmail.com</a></p>
+            <center><img src="hotelikon.svg"></center>
+        </div>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src = "main.js"></script>
+  
+</body>
+</html>
